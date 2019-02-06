@@ -1,7 +1,7 @@
 # Teaching RRBS Data Analysis
 
 ## Purpose
-These scripts will take you through analysing RRBS data using TrimGalore, Bismark and R.
+These scripts will take you through analysing RRBS data.
 
 Before you start you should familiarise yourself with command line and R scripting. This is a great resource for getting started with bioinformatics. 
 ```
