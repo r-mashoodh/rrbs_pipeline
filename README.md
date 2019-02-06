@@ -9,11 +9,12 @@ https://github.com/WilsonSayresLab/BioinformaticsIntroduction/blob/master/README
 ```
 
 ## 1. Setup
-To run the pipeline you will need to install [TrimGalore!](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/), [Bismark](https://github.com/FelixKrueger/Bismark) and [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/).
+To run the pipeline you will need to install [TrimGalore!](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/), [Bismark](https://github.com/FelixKrueger/Bismark) and [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/). This script will download the tools you need. 
 
 ```
 ./1_setup.sh
 ```
+Note: Bismark requires [Bowtie2 ](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) for mapping. 
 
 ## 2. Build Index
 This script will download the required genomes and build indices in [Bismark](https://github.com/FelixKrueger/Bismark).
