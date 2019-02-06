@@ -1,4 +1,4 @@
-# Teaching RRBS Data Analysis
+# Teaching: RRBS Data Analysis
 
 ## Purpose
 These scripts will take you through analysing RRBS data.
