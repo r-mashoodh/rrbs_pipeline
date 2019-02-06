@@ -33,3 +33,9 @@ This script will map trimmed reads to the reference genome using [Bismark](https
 ```
 ./4_mapping.sh
 ```
+## 5. Analysis using R
+This script will analyse data ...
+```
+5_analysis.R
+```
+Note: you will have to import txt files generated from mapping ... probably merging etc etc. TBD. 
