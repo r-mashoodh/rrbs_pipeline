@@ -8,13 +8,6 @@ Before you start you should familiarise yourself with command line and R scripti
 https://github.com/WilsonSayresLab/BioinformaticsIntroduction/blob/master/README.md
 ```
 
-## Getting Started
-First create a directory for your analyses
-```
-mkdir rrbs_analysis
-git clone ?
-```
-
 ## Data
 This pipeline uses data from [something, BioProject reference]. 
 
