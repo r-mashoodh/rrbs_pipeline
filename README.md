@@ -24,7 +24,7 @@ This script will download the required genomes and build indices in [Bismark](ht
 ## 3. Processing 
 This script will Trim raw reads using [TrimGalore!](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/) and runs [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) on them.
 ```
-./3_processing.sh
+./3_trimming.sh
 ```
 
 ## 4. Mapping & Quantification of methylation
