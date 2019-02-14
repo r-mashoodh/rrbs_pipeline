@@ -8,6 +8,11 @@ Before you start you should familiarise yourself with command line and R scripti
 https://github.com/WilsonSayresLab/BioinformaticsIntroduction/blob/master/README.md
 ```
 
+Instructions for downloading this repository:
+```
+https://help.github.com/articles/cloning-a-repository/
+```
+
 ## Data
 This pipeline uses baboon RRBS data from [Lea et al., 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4846536/). Raw fastq data is available through NCBI (project accession [SRP058411](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP058411). 
 
