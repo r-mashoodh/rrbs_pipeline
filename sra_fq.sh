@@ -5,6 +5,9 @@
 # bioproject for shearwater
 # SRA Study:SRP171071
 
+mkdir sra_dump
+mv filelist.txt sra_dump
+
 cd sra_dump
 
 for i in `cat filelist.txt`;
