@@ -9,7 +9,7 @@ https://github.com/WilsonSayresLab/BioinformaticsIntroduction/blob/master/README
 ```
 
 ## Data
-This pipeline uses baboon data from [Lea et al., 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4846536/). Raw fastq data is available through NCBI (project accession [SRP058411](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP058411). 
+This pipeline uses baboon RRBS data from [Lea et al., 2016](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4846536/). Raw fastq data is available through NCBI (project accession [SRP058411](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=SRP058411). 
 
 This script will download and install [SRA Toolkit](https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/) and then download the raw fastq files for the samples specified in 'filelist.txt':
 ```
