@@ -8,7 +8,7 @@ Before you start you should familiarise yourself with command line and R scripti
 https://github.com/WilsonSayresLab/BioinformaticsIntroduction/blob/master/README.md
 ```
 
-Instructions for downloading this repository:
+Instructions for downloading this repository using terminal:
 ```
 https://help.github.com/articles/cloning-a-repository/
 ```
