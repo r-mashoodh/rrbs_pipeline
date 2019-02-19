@@ -32,7 +32,7 @@ To run the pipeline you will need to install [TrimGalore!](https://www.bioinform
 ```
 ./1_setup.sh
 ```
-Note: You will need to install [Python](https://www.python.org/downloads/). 
+Note: You will need to have [Python](https://www.python.org/downloads/) installed (2.7 might be the safest bet).  
 
 ## 2. Build Index
 This script will download the required genomes and build indices in [Bismark](https://github.com/FelixKrueger/Bismark).
