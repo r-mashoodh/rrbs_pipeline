@@ -1,9 +1,14 @@
 #!/bin/bash
 
 #sra toolkit
+# download sra_toolkit
 
-# bioproject for shearwater
-# SRA Study:SRP171071
+mkdir software
+cd software
+wget https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/2.9.0/sratoolkit.2.9.0-ubuntu64.tar.gz
+tar -xvzf sratoolkit.2.9.0-ubuntu64.tar.gz
+
+cd ..
 
 mkdir sra_dump
 mv filelist.txt sra_dump
