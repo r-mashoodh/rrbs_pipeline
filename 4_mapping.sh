@@ -8,17 +8,27 @@
 
 # Map/alignment to spike in
 
+mkdir spike_aligned
+
+for i in *_trimmed.fq.gz;
+do
+filename =`echo $i | awk -F '_trimmed.fq.gz' '{print $1}'`
+../software/Bismark-0.20.0/bismark --path_to_bowtie ../software/bowtie2/ -n 1 ../genomes/spike/ -o ../spike_aligned $filename".fq.gz"
+done
+
+
+#Align to the genome of interest
+
 mkdir bis_aligned
 
 for i in *_trimmed.fq.gz;
 do
 filename =`echo $i | awk -F '_trimmed.fq.gz' '{print $1}'`
-../software/Bismark-0.20.0/bismark -n 1 ../genomes/spike/ -o ../bis_aligned $filename".fq.gz"
+## make sure to add baboon genome dir ## ../software/Bismark-0.20.0/bismark --path_to_bowtie ../software/bowtie2/ -n 1 ../genomes/baboon/ -o ../spike_aligned $filename".fq.gz"
 done
 
-mkdir bis_aligned
 
-for i in ;
+for i in ##<<>>>##;
 do
 filename =`echo $i | awk -F '_trimmed.fq.gz' '{print $1}'`
 ../software/Bismark-0.20.0/methylation_extractor -s file.fq_bismark.sam
