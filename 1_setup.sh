@@ -12,12 +12,17 @@ unzip 0.5.0.zip
 wget https://github.com/FelixKrueger/Bismark/archive/0.20.0.zip
 unzip 0.20.0.zip
 
+# Download bowtie2
+git clone https://github.com/BenLangmead/bowtie2.git
+
 cd ..
 
 # Get some genomes
 
 mkdir genomes
 cd genomes
+
+# This is where you will place all the reference genomes you need
 
 # fish ... 
 # M. zebra
