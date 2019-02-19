@@ -7,7 +7,7 @@ cd software
 wget https://github.com/FelixKrueger/TrimGalore/archive/0.5.0.zip
 unzip 0.5.0.zip
 
-# Download Bismarck
+# Download Bismark
 # note requires samtools and bowtie2
 wget https://github.com/FelixKrueger/Bismark/archive/0.20.0.zip
 unzip 0.20.0.zip
