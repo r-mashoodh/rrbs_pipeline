@@ -32,7 +32,7 @@ To run the pipeline you will need to install [TrimGalore!](https://www.bioinform
 ```
 ./1_setup.sh
 ```
-Note: Bismark requires [Bowtie2 ](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml) and [samtools](http://www.htslib.org/). 
+Note: You will need to install [Python](https://www.python.org/downloads/). 
 
 ## 2. Build Index
 This script will download the required genomes and build indices in [Bismark](https://github.com/FelixKrueger/Bismark).
