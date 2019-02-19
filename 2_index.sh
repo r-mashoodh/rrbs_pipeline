@@ -30,7 +30,7 @@ cd ..
 
 # Create indices for both spike-in and fish
 
-# you will need to replace 'genomes/m_zebra/' with the path to your 
+# you will need to replace 'genomes/m_zebra/' with the path to your genomes of interest
 
 # genome preparation for m_zebra
 software/Bismark-0.20.0/bismark_genome_preparation --path_to_bowtie ../software/bowtie2 genomes/m_zebra/
