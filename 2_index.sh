@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # build index
 
 # download relevant genomes for species and spike-ins
