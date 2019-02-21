@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Software setup for Fish methylation analysis
 
 mkdir software
