@@ -10,10 +10,15 @@ cd genomes
 # M. zebra
 # https://www.ncbi.nlm.nih.gov/genome?LinkName=bioproject_genome&from_uid=60369
 
-mdir m_zebra
-cd m_zebra
+#mkdir m_zebra
+#cd m_zebra
 
-wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/238/955/GCF_000238955.4_M_zebra_UMD2a/GCF_000238955.4_M_zebra_UMD2a_genomic.fna.gz
+#wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/238/955/GCF_000238955.4_M_zebra_UMD2a/GCF_000238955.4_M_zebra_UMD2a_genomic.fna.gz
+
+mkdir papio
+cd papio
+
+wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/264/685/GCF_000264685.3_Panu_3.0/GCF_000264685.3_Panu_3.0_genomic.fna.gz
 
 cd .. 
 
