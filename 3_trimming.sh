@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ## RAW READ STUFF
 
 mkdir trimmed_reads
