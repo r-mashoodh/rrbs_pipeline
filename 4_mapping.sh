@@ -1,4 +1,4 @@
-
+#!/bin/bash
 ## RAW READ STUFF
 
 
