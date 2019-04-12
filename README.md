@@ -7,6 +7,15 @@ Before you start you should familiarise yourself with command line and R scripti
 ```
 https://github.com/WilsonSayresLab/BioinformaticsIntroduction/blob/master/README.md
 ```
+```
+https://swcarpentry.github.io/shell-novice/
+```
+```
+http://cambiotraining.github.io/r-intro/
+```
+```
+https://tavareshugo.github.io/2018-06-28-cambridge/ 
+```
 
 Instructions for downloading this repository using terminal:
 ```
